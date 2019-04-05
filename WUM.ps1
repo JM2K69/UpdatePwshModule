@@ -64,11 +64,6 @@ $Childreader     = (New-Object System.Xml.XmlNodeReader $XamlChildWindow)
 $Updated_Xaml    = [Windows.Markup.XamlReader]::Load($Childreader)
 $Updated.Children.Add($Updated_Xaml )	   		 | Out-Null
 
-
-$XamlMainWindow.SelectNodes("//*[@Name]") | %{
-    try {Set-Variable -Name "$($_.Name)" -Value $Form.FindName($_.Name) -ErrorAction Stop}
-    catch{throw}
-	}
 #******************************************************
 # Initialize with the first value of Item Section *****
 #******************************************************

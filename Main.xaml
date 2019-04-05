@@ -8,6 +8,7 @@
 		Height="545" 
 		Width="880" 
 		WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize"	
 		WindowStyle="None"
 		BorderThickness="0" 		
 		GlowBrush="{DynamicResource AccentColorBrush}"

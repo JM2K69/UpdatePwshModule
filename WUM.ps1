@@ -139,7 +139,7 @@ New-Log "------------------------------------"
 
 $GitHub.add_Click({
 
-	start-process https://github.com/JM2K69/Powershell_WPF_GUI
+	start-process https://github.com/JM2K69/UpdatePwshModule
 
 })
 

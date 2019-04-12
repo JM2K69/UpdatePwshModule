@@ -18,7 +18,7 @@ function Start-UpdatePwshModule {
         switch ($Scope) {
             'CurrentUser'
             {
-            powershell.exe -File $File	    
+            powershell.exe -File "$PSScriptRoot\$File" 	    
             }
             'AllUsers'
             {

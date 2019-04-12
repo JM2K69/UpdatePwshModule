@@ -2,7 +2,7 @@
 #
 # Tool Name	: Module Pwsh Management
 # Author 	: Jérôme Bezet-Torres
-# Date 		: XX/XX/2019
+# Date 		: 12/04/2019
 # Website	: http://JM2K69.github.io/
 # Twitter	: https://twitter.com/JM2K69
 #

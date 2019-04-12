@@ -10,7 +10,6 @@ function Start-UpdatePwshModule {
     begin 
     {
         $Script:pathPanel= $PSScriptRoot
-        $File = "./WUM.ps1"
 
     }
     process 
@@ -22,7 +21,7 @@ function Start-UpdatePwshModule {
             }
             'AllUsers'
             {
-            Start-Process -FilePath powershell.exe -Verb RunAs -ArgumentList "$PSScriptRoot\$File" 
+            Start-Process -FilePath powershell.exe -Verb RunAs -ArgumentList "$PSScriptRoot\WUM.ps1" 
             }
             Default {}
         }
